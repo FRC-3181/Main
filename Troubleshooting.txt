@@ -1,0 +1,24 @@
+Troubleshooting Log
+
+Log Format:
+<A few words to describe your problem>:
+Problem: 
+<a longer description of your problem>
+Tests: 
+<One line per test, the attempts you made to fix the problem>
+Solution: 
+<What was needed to solve the problem>
+
+
+4 Talon Crap-out:
+Problem:
+Talons work individually, but when four are initialized, they all run very briefly and then suddenly stop regardless of what value is sent to them
+Tests:
+Initialize 4 Talons, don't set speed (Fails)
+Initialize 4 Talons, set speed to 0.25 (Fails)
+Initialize 2 Talons and set speed, wait 2 seconds, then Initialize other 2 and set speeds (works until second set of Talons initialized)
+Replace Digital SideCar Cable and run previous test again (Same results)
+Replace Digital SideCar and run same test (Same Results)
+Wait a few seconds after initializing with each Talon (works until last Talon initialized)
+Reverse order of Talon initialization (same results)
+
