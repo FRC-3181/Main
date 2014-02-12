@@ -5,7 +5,8 @@ Log Format:
 Problem: 
 <a longer description of your problem>
 Tests: 
-<One line per test, the attempts you made to fix the problem>
+<do the following for each test, one line per test:>
+<Steps taken for test> (<Results of test>)
 Solution: 
 <What was needed to solve the problem>
 
@@ -21,4 +22,8 @@ Replace Digital SideCar Cable and run previous test again (Same results)
 Replace Digital SideCar and run same test (Same Results)
 Wait a few seconds after initializing with each Talon (works until last Talon initialized)
 Reverse order of Talon initialization (same results)
+Replace 4th Talon with a Victor (Victor doesn't turn on, but victor didn't have a load)
+Realize that Sidecar was wired to 5V instead of 12V, make change and run again (It worked!)
+Solution:
+Check to make sure that the SideCar is receiving 12V. Also make sure that the Talons are not broken.
 
