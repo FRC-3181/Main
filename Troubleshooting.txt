@@ -27,3 +27,16 @@ Tests:
 Solution:
   * Check to make sure that the SideCar is receiving 12V. Also make sure that the Talons are not broken.
 
+
+Gyro not working:
+Problem
+  * The Gyro is not giving meaningful values
+Tests:
+  * Check Gyro Wiring (plugged in correctly)
+  * Read the Analog Voltage (displays 0)
+  * Replace Analog Module (Nothing changes)
+  * Replace Analog Breakout (Gyro works correctly)
+Solution:
+  * Replace the Analog Breakout if the Gyro is not working. If the problem persits try other things.
+  
+  
