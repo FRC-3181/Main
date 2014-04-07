@@ -39,4 +39,11 @@ Tests:
 Solution:
   * Replace the Analog Breakout if the Gyro is not working. If the problem persits try other things.
   
-  
+Robot not Turning:
+Problem
+  * The Mecanum-Wheel Robot would not turn unless it was also moving
+Tests
+  * Check Code (Robot works on cart)
+  * Ask someone (Wheels were on backwards)
+Solution:
+  * Make sure the mecanum wheels make an X on top and an O on bottom
